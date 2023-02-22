@@ -1,0 +1,31 @@
+.wrapper {
+  position:relative;
+}
+
+.placeholder {
+  width: 1.5rem;
+  padding: 3px;
+  position: absolute;
+  box-sizing:border-box;
+  top:50%;
+  left:10px;
+  transform: translateY(-50%);
+  color: hsl(219, 17%, 84%);
+}
+
+.input {
+  height: 50px;
+  box-sizing:border-box;
+  padding-left: 50px;
+  width: 100%;
+  border-color: hsl(219, 17%, 84%);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

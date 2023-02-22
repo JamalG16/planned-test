@@ -1,0 +1,47 @@
+.button {
+  background-color: hsl(153, 33%, 48%);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 30px;
+}
+
+.left-column {
+  margin-right: 20px;
+}
+
+.container {
+  background: #f4f6f8;
+}
+
+.component-container {
+  background: white;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: hsl(240, 3%, 94%);
+  padding: 2%
+}
+
+.input-container {
+  padding: 10%;
+}
+
+.input-row {
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.button-row {
+  justify-content: center;
+}
+
+.spinner {
+  display:flex;
+  justify-content: center;
+}
